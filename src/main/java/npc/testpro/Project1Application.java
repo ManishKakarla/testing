@@ -14,6 +14,7 @@ public class Project1Application {
         SpringApplication.run(Project1Application.class, args);
     }
     @GetMapping("first")
+    //adding anedasdgf
     public String display(@RequestParam int a,@RequestParam String name)
     {
         //int a=Integer.parseInt(args[0]);
